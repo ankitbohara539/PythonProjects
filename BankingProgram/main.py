@@ -1,8 +1,9 @@
-# Pythor 4th mini project
-# python banking program using functions
+# Python 4th mini project
+# python banking program using basic functions()
 
 def show_balance():
-    print(f"Your balance is ${balance:.2f}") # Here .2f is for two decimal valur
+    print(f"Your balance is ${balance:.2f}") # Here .2f is for two decimal value (0.00)
+    
 
 def deposit():
     amount = float(input("Enter your depositing amount: $"))
